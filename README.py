@@ -1,6 +1,5 @@
 # projectalfa
 import streamlit as st
-pip install metapub
 from metapub import PubMedFetcher
 
 fetcher = PubMedFetcher()
