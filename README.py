@@ -1,4 +1,7 @@
 # projectalfa
+git add requirements.txt
+git commit -m "Add requirements.txt with necessary packages"
+git push origin main
 import streamlit as st
 from metapub import PubMedFetcher
 
