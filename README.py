@@ -1,6 +1,8 @@
 # projectalfa
 import streamlit as st
+pip install metapub
 from metapub import PubMedFetcher
+
 fetcher = PubMedFetcher()
 def fetch_papers(query):
     pmids = fetcher.pmids_for_query(query)
