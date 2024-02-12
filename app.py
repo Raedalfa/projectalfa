@@ -3,7 +3,7 @@ from Bio import Entrez
 import streamlit as st
 
 # Always provide your email when using NCBI's E-utilities
-Entrez.email = "your_email@example.com"
+Entrez.email = "raed13r@gmail.com"
 
 def fetch_papers_and_count(query):
     # Fetch the total count of results
