@@ -50,4 +50,3 @@ if st.button('Search'):
             st.write("---")  # Add a separator line
     else:
         st.write("No papers found.")
-
