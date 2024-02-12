@@ -1,5 +1,5 @@
 
-from Bio import Entrez
+from biopython import Entrez
 import streamlit as st
 
 # Always provide your email when using NCBI's E-utilities
